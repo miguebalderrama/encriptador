@@ -21,7 +21,7 @@
 }
 .body .main .messageBox{
     width: 25%;
-    height: 560px;
+    height: 580px;
     background-color: white;
     border-radius:  30px;   
     display: flex;
@@ -69,4 +69,28 @@
     outline: none;
     color: var(--dark-blue)
 
+}
+.body .main .messages .message .boxBotones{
+    margin: 0 0 0 150px;
+}
+.body .main .messages .message .boxBotones p{
+    color: rgb(95, 95, 95);
+    font-size: 11px;
+}
+.body .main .messages .message .boxBotones .message-button{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    border: solid 1px var(--dark-blue);
+    cursor: pointer;
+    margin-top: 15px;
+}
+.oscuro{
+    background-color: var(--dark-blue);
+    color: white;
+    margin-right: 15px;
+}
+.claro{
+    background-color: rgb(221, 221, 221);
+    color: var(--dark-blue);
 }
