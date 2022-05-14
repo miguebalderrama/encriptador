@@ -17,7 +17,7 @@
             <section class="messages">
             <div class="message">
                 <img class="logo" src="https://ferraresir.github.io/OracleOne-Challenge1/assets/Vector.png" alt="logo">
-                <button id="btnClean">Limpiar</button>
+                <button id="btnClean" class="limpiar">Limpiar</button>
                 <div >
                     <textarea id="texto" rows="9" cols="48" class="message-text" type="text" placeholder="Ingrese su texto aqui..."></textarea>
                 </div>
@@ -25,7 +25,7 @@
                     <p><span class="interrogacion">! </span>Solo letras minusculas y sin acentos</p>
                     <div>
                         <button id="btnEncriptar" class="message-button oscuro">Encriptar</button>
-                        <button class="message-button claro">Desencriptar</button>
+                        <button id="btnDesencriptar" class="message-button claro">Desencriptar</button>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,10 @@
                 <img src="https://sandovaldavid.github.io/Challenge-01--Codificador/img/Mu%C3%B1eco.png" alt="muñeco-lupa">
                 <h3>Ningun mensaje fue encontrado</h3>
                 <p>Ingrese el texto que desee encriptar y desencriptar</p>
+
             </div>
+            <button id="btnCopiar" style="display:none" class="message-button claro copiar">Copiar</button>
+
             </aside>
             </section>
         </main>

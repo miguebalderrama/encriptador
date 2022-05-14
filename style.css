@@ -27,6 +27,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: space-around;
+    padding: 15px;
     
 }
 .body .main .messageBox .messageDesencriptar{
@@ -95,12 +97,40 @@
     cursor: pointer;
     margin-top: 15px;
 }
+.message-button{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    border: solid 1px var(--dark-blue);
+    cursor: pointer;
+    margin-top: 15px;   
+}
 .oscuro{
     background-color: var(--dark-blue);
     color: white;
     margin-right: 15px;
 }
 .claro{
-    background-color: rgb(221, 221, 221);
+    background-color: white;
     color: var(--dark-blue);
+}
+
+.copiar{
+    margin: auto;
+    width: 90%;
+}
+.messageEncriptado{
+    height: 85%;
+    font-size: 20px;
+}
+.limpiar{
+    color: var(--dark-blue);
+    outline: none;
+    border: none;
+    background-color: var(--light-blue);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    float: right;
+    margin:40px 60px 0px 0px;
 }
