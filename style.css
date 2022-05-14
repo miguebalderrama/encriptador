@@ -59,15 +59,19 @@
     align-content: center;
     max-width: 1200px;
     margin: 10px 10px 10px 50px;
+    overflow: hidden
    
 }
 .body .main .messages .message .message-text{
+    max-width: max-content;
     font-size: 2rem;
-    margin: 100px 0px 0px 150px;
+    padding: 100px 0px 0px 150px;
     background-color: var(--light-blue);
     border:none;
     outline: none;
-    color: var(--dark-blue)
+    color: var(--dark-blue);
+    word-break:break-all;
+    width: 100%;
 
 }
 .body .main .messages .message .boxBotones{
@@ -76,6 +80,12 @@
 .body .main .messages .message .boxBotones p{
     color: rgb(95, 95, 95);
     font-size: 11px;
+}
+.body .main .messages .message .boxBotones div span.interrogacion{
+    background-color: rgb(95, 95, 95);
+    font-size: 11px;
+    color: rgb(213, 15, 15);
+    width: 50px;
 }
 .body .main .messages .message .boxBotones .message-button{
     width: 250px;
